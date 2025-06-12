@@ -2,6 +2,9 @@
   "name": "stremio-custom-list",
   "version": "1.0.0",
   "main": "dist/index.js",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "start": "node index.js",
     "dev": "node index.js",
