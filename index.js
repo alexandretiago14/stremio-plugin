@@ -66,7 +66,7 @@ builder.defineCatalogHandler(async function(args) {
     return { metas: results };
   }
   
-  // Return empty results for any other request
+
   return { metas: [] };
 });
 
