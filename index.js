@@ -71,6 +71,6 @@ builder.defineCatalogHandler(async function(args) {
 });
 
 // Iniciar o servidor do addon
-serveHTTP(builder.getInterface(), { port: 7001 });
+serveHTTP(builder.getInterface(), { port: 8080 });
 
 console.log('Addon rodando em http://127.0.0.1:7001/manifest.json');
