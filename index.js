@@ -71,20 +71,5 @@ builder.defineCatalogHandler(async function(args) {
 });
 
 // For local development
-if (process.env.NODE_ENV !== 'production') {
-  serveHTTP(builder.getInterface(), { port: 8080 });
-  console.log('Addon running at http://127.0.0.1:8080/manifest.json');
-}
-
-// For Vercel - export the interface
-module.exports = (req, res) => {
-  const addonInterface = builder.getInterface();
-  const method = req.method.toLowerCase();
-  const url = req.url;
-  
-  const handle = addonInterface.middleware;
-  handle(req, res, () => {
-    res.statusCode = 404;
-    res.end();
-  });
-};
+serveHTTP(builder.getInterface(), { port: 8080 });
+console.log('Addon running at http://127.0.0.1:8080/manifest.json');
