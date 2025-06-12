@@ -2,35 +2,35 @@ const { addonBuilder, serveHTTP } = require('stremio-addon-sdk');
 const connectDB = require('./config/db');
 const { seedInitialData, getMedia } = require('./services/mediaService');
 
-// Conectar ao MongoDB
+// Connect to MongoDB
 connectDB();
 
-// Semear dados iniciais
-seedInitialData().catch(err => console.error('Erro ao semear dados:', err));
+// Seed initial data
+seedInitialData().catch(err => console.error('Error seeding data:', err));
 
-// Criar um builder para o addon
+// Create addon builder
 const builder = new addonBuilder({
   id: 'org.myexampleaddon',
   version: '1.0.0',
   name: 'Netflix Top 10',
   description: 'Netflix Top 10 - Alexandre Pereira',
   
-  // Resources definem o que o seu addon pode fazer
+  // Resources define what your addon can do
   resources: ['catalog'],
   
-  // Types definem quais tipos de conteúdo o seu addon suporta
+  // Types define which content types your addon supports
   types: ['movie', 'series'],
   
-  // Catalogs definem as listas que aparecerão na página inicial
+  // Catalogs define the lists that will appear on the home page
   catalogs: [
     {
       type: 'movie',
       id: 'my-custom-list',
       name: 'Netflix Top 10',
       extra: [
-        // Adicionando skip para suporte à paginação
+        // Adding skip for pagination support
         { name: 'skip', isRequired: false },
-        // Adicionando capacidade de busca
+        // Adding search capability
         { name: 'search', isRequired: false }
       ]
     },
@@ -45,32 +45,46 @@ const builder = new addonBuilder({
     }
   ],
   
-  // Opcional: se o seu addon fornecerá streams para conteúdo específico
+  // Optional: if your addon will provide streams for specific content
   idPrefixes: ['tt']
 });
 
-// Definir o manipulador de catálogo - isso é o que cria sua lista personalizada
+// Define catalog handler - this is what creates your custom list
 builder.defineCatalogHandler(async function(args) {
   
-  // Verificar se esta requisição é para nossos catálogos
+  // Check if this request is for our catalogs
   if ((args.type === 'movie' && args.id === 'my-custom-list') ||
       (args.type === 'series' && args.id === 'my-custom-series')) {
     
-    // Configurar parâmetros de busca e paginação
+    // Set up search and pagination parameters
     const searchQuery = args.extra && args.extra.search ? args.extra.search.toLowerCase() : null;
     const skip = args.extra && args.extra.skip ? parseInt(args.extra.skip) : 0;
     
-    // Buscar media do serviço
+    // Fetch media from service
     const results = await getMedia(args.type, searchQuery, skip);
 
     return { metas: results };
   }
   
-  // Retornar resultados vazios para qualquer outra requisição
+  // Return empty results for any other request
   return { metas: [] };
 });
 
-// Iniciar o servidor do addon
-serveHTTP(builder.getInterface(), { port: 8080 });
+// For local development
+if (process.env.NODE_ENV !== 'production') {
+  serveHTTP(builder.getInterface(), { port: 8080 });
+  console.log('Addon running at http://127.0.0.1:8080/manifest.json');
+}
 
-console.log('Addon rodando em http://127.0.0.1:7001/manifest.json');
+// For Vercel - export the interface
+module.exports = (req, res) => {
+  const addonInterface = builder.getInterface();
+  const method = req.method.toLowerCase();
+  const url = req.url;
+  
+  const handle = addonInterface.middleware;
+  handle(req, res, () => {
+    res.statusCode = 404;
+    res.end();
+  });
+};
