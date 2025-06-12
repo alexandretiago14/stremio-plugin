@@ -70,6 +70,4 @@ builder.defineCatalogHandler(async function(args) {
   return { metas: [] };
 });
 
-// For local development
-serveHTTP(builder.getInterface(), { port: 8080 });
-console.log('Addon running at http://127.0.0.1:8080/manifest.json');
+module.exports = serveHTTP(builder.getInterface(), { port: 8080 });
