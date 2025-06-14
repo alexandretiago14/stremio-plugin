@@ -1,4 +1,6 @@
 const Media = require('../models/Media');
+const connectDB = require('../config/db');
+const { getAllNetflixTop10, saveTop10ToDatabase, saveTop10ToJson } = require('../services/netflixScraperService');
 
 // Função para semear dados iniciais
 async function seedInitialData() {
