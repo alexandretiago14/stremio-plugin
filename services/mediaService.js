@@ -82,7 +82,13 @@ async function getMedia(type, searchQuery = null, skip = 0, limit = 100) {
       .limit(100)
       .lean(); // Converter documentos Mongoose para objetos simples
     
-    return results;
+    // Shuffle results array using Fisher-Yates algorithm
+    const shuffledResults = results
+      .map(value => ({ value, sort: Math.random() }))
+      .sort((a, b) => a.sort - b.sort)
+      .map(({ value }) => value);
+          
+    return shuffledResults;
   } catch (error) {
     console.error('Erro na base de dados:', error);
     return [];

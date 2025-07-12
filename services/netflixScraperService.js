@@ -104,6 +104,11 @@ async function saveTop10ToDatabase(top10Data) {
     // Limpar dados antigos
     await Media.deleteMany({});
     
+    // Remove duplicates by id using filter
+    top10Data = top10Data.filter((item, index, self) =>
+      index === self.findIndex((t) => t.id === item.id)
+    )
+
     // Inserir novos dados
     await Media.insertMany(top10Data);
     

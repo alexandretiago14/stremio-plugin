@@ -1,5 +1,60 @@
 [
   {
+    "id": "tt10919420",
+    "type": "series",
+    "name": "Squid Game",
+    "releaseInfo": "2025",
+    "poster": "https://m.media-amazon.com/images/M/MV5BYTU3ZDVhNmMtMDVlNC00MDc0LTgwNDMtYWE5MTI2ZGI4YWIwXkEyXkFqcGc@._V1_.jpg",
+    "description": "",
+    "genres": [
+      "DSADSAD"
+    ]
+  },
+  {
+    "id": "tt33029688",
+    "type": "series",
+    "name": "Olympo",
+    "releaseInfo": "2025",
+    "poster": "https://m.media-amazon.com/images/M/MV5BODUwMTgxOWItMTU3MS00MDg0LTliYjItMWQ1NmYyZDRkMzI0XkEyXkFqcGc@._V1_.jpg",
+    "description": "",
+    "genres": [
+      "DSADSAD"
+    ]
+  },
+  {
+    "id": "tt1751634",
+    "type": "series",
+    "name": "The Sandman",
+    "releaseInfo": "2025",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNjk0M2ZhZTQtZjQ0NC00ODA2LWFkN2ItMTA0ZTc0MjJjODg0XkEyXkFqcGc@._V1_.jpg",
+    "description": "",
+    "genres": [
+      "DSADSAD"
+    ]
+  },
+  {
+    "id": "tt37182077",
+    "type": "series",
+    "name": "Attack on London",
+    "releaseInfo": "2025",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNjVhZTlkYTgtNWExYy00OWZhLWI0ZGMtZWVjNDZlM2EyOWQ2XkEyXkFqcGc@._V1_.jpg",
+    "description": "",
+    "genres": [
+      "DSADSAD"
+    ]
+  },
+  {
+    "id": "tt31216548",
+    "type": "series",
+    "name": "The Waterfront",
+    "releaseInfo": "2025",
+    "poster": "https://m.media-amazon.com/images/M/MV5BYjllZDZiNzUtZTE5MS00MTNjLWJlMDAtZGY4YjM5YTVkM2UxXkEyXkFqcGc@._V1_.jpg",
+    "description": "",
+    "genres": [
+      "DSADSAD"
+    ]
+  },
+  {
     "id": "tt10813940",
     "type": "series",
     "name": "Ginny & Georgia",
@@ -11,33 +66,22 @@
     ]
   },
   {
-    "id": "tt31429675",
+    "id": "tt10919420",
     "type": "series",
-    "name": "Sirens",
+    "name": "Squid Game",
     "releaseInfo": "2025",
-    "poster": "https://m.media-amazon.com/images/M/MV5BNTQ1NzBmOGYtNWVjZC00OWFlLTgwNjMtM2NhM2VjYjdhYzI2XkEyXkFqcGc@._V1_.jpg",
+    "poster": "https://m.media-amazon.com/images/M/MV5BYTU3ZDVhNmMtMDVlNC00MDc0LTgwNDMtYWE5MTI2ZGI4YWIwXkEyXkFqcGc@._V1_.jpg",
     "description": "",
     "genres": [
       "DSADSAD"
     ]
   },
   {
-    "id": "tt27995114",
+    "id": "tt10919420",
     "type": "series",
-    "name": "Dept. Q",
+    "name": "Squid Game",
     "releaseInfo": "2025",
-    "poster": "https://m.media-amazon.com/images/M/MV5BNWQ3MDQ2MGQtOGM0MC00MzlkLWE0ODQtYzE4Zjc3Mjc1ZWI5XkEyXkFqcGc@._V1_.jpg",
-    "description": "",
-    "genres": [
-      "DSADSAD"
-    ]
-  },
-  {
-    "id": "/spotlight/",
-    "type": "series",
-    "name": "Sara - Woman in the Shadows",
-    "releaseInfo": "2025",
-    "poster": "https://m.media-amazon.com/images/M/MV5BZmIwMmU4ZWQtOTczZi00ZWEwLThhNjgtZTkwZDRlYmYzNDhkXkEyXkFqcGc@._V1_.jpg",
+    "poster": "https://m.media-amazon.com/images/M/MV5BYTU3ZDVhNmMtMDVlNC00MDc0LTgwNDMtYWE5MTI2ZGI4YWIwXkEyXkFqcGc@._V1_.jpg",
     "description": "",
     "genres": [
       "DSADSAD"
@@ -55,165 +99,121 @@
     ]
   },
   {
-    "id": "tt35630036",
+    "id": "tt31429675",
     "type": "series",
-    "name": "American Manhunt",
+    "name": "Sirens",
     "releaseInfo": "2025",
-    "poster": "https://m.media-amazon.com/images/M/MV5BY2FmZjA5MTYtYjUyYi00MGUxLTg5YjctNWQxNTFlNGZmMjBkXkEyXkFqcGc@._V1_.jpg",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNTQ1NzBmOGYtNWVjZC00OWFlLTgwNjMtM2NhM2VjYjdhYzI2XkEyXkFqcGc@._V1_.jpg",
     "description": "",
     "genres": [
       "DSADSAD"
     ]
   },
   {
-    "id": "tt22459586",
-    "type": "series",
-    "name": "Criminal Code",
-    "releaseInfo": "2025",
-    "poster": "https://m.media-amazon.com/images/M/MV5BN2JmYWI4NWUtMzUzNi00MjM1LThkYTgtYTBlYTRhMmIzZWQ2XkEyXkFqcGc@._V1_.jpg",
-    "description": "",
-    "genres": [
-      "DSADSAD"
-    ]
-  },
-  {
-    "id": "tt36722167",
-    "type": "series",
-    "name": "Tastefully Yours",
-    "releaseInfo": "2025",
-    "poster": "https://m.media-amazon.com/images/M/MV5BZDA5NjMwODktNzE0My00MGMxLTlhMzQtZDU2YTRjMzRlNDUwXkEyXkFqcGc@._V1_.jpg",
-    "description": "",
-    "genres": [
-      "DSADSAD"
-    ]
-  },
-  {
-    "id": "tt3006802",
-    "type": "series",
-    "name": "Outlander",
-    "releaseInfo": "2025",
-    "poster": "https://m.media-amazon.com/images/M/MV5BYTRiOWJlMmQtNjdkNS00MzUzLTgyZjYtNGVkZjFhOTcxZmQ5XkEyXkFqcGc@._V1_.jpg",
-    "description": "",
-    "genres": [
-      "DSADSAD"
-    ]
-  },
-  {
-    "id": "tt33496221",
-    "type": "series",
-    "name": "Secrets We Keep",
-    "releaseInfo": "2025",
-    "poster": "https://m.media-amazon.com/images/M/MV5BN2VkNzhmMDYtYmIxMC00NmU4LTgwYWYtZDRhMmI3MDI0ZjA3XkEyXkFqcGc@._V1_.jpg",
-    "description": "",
-    "genres": [
-      "DSADSAD"
-    ]
-  },
-  {
-    "id": "tt33474172",
+    "id": "tt14961624",
     "type": "movie",
-    "name": "A Widow's Game",
+    "name": "The Old Guard 2",
     "releaseInfo": "2025",
-    "poster": "https://m.media-amazon.com/images/M/MV5BNDAxYTVmMTYtOGYzYi00YjFkLTkyMGEtMzc0MTUzZmY3YzFjXkEyXkFqcGc@._V1_.jpg",
+    "poster": "https://m.media-amazon.com/images/M/MV5BZmFhNWY1MjEtZTkyZS00ZWIzLTk4ZWItMDM0MzliNmE1ZGZhXkEyXkFqcGc@._V1_.jpg",
     "description": "",
     "genres": [
       "DSADSAD"
     ]
   },
   {
-    "id": "tt36240772",
+    "id": "tt5433140",
     "type": "movie",
-    "name": "K.O.",
+    "name": "Fast X",
     "releaseInfo": "2025",
-    "poster": "https://m.media-amazon.com/images/M/MV5BMzUxZmM3ZmItNGFjMS00MTdiLTk0ZDItYjk5MzBkMTM3ZTAwXkEyXkFqcGc@._V1_.jpg",
+    "poster": "https://m.media-amazon.com/images/M/MV5BYzEwZjczOTktYzU1OS00YjJlLTgyY2UtNWEzODBlN2RjZDEwXkEyXkFqcGc@._V1_.jpg",
     "description": "",
     "genres": [
       "DSADSAD"
     ]
   },
   {
-    "id": "tt32550101",
+    "id": "tt14205554",
     "type": "movie",
-    "name": "STRAW",
+    "name": "KPop Demon Hunters",
     "releaseInfo": "2025",
-    "poster": "https://m.media-amazon.com/images/M/MV5BNmZjOTU5MGQtYTcyMi00ZGJjLTk4NzQtZTcwMmI0MTczNTUwXkEyXkFqcGc@._V1_.jpg",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNTBiYWJlMjQtOTIyMy00NTY4LWFhOWItOWZhNzc3NGMyMjc2XkEyXkFqcGc@._V1_.jpg",
     "description": "",
     "genres": [
       "DSADSAD"
     ]
   },
   {
-    "id": "tt33244550",
+    "id": "tt6654210",
     "type": "movie",
-    "name": "The Heart Knows",
+    "name": "Infinite",
     "releaseInfo": "2025",
-    "poster": "https://m.media-amazon.com/images/M/MV5BMGY4NTAyMjUtNzZiMi00MGY1LWJmY2MtZDc3ZjNjMzRmZjAwXkEyXkFqcGc@._V1_.jpg",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNTZhMWU0NzEtNzViMC00NzljLWJlNzYtYTA4MGE1YWFmOTU3XkEyXkFqcGc@._V1_.jpg",
     "description": "",
     "genres": [
       "DSADSAD"
     ]
   },
   {
-    "id": "tt6718170",
+    "id": "tt7556122",
+    "type": "movie",
+    "name": "The Old Guard",
+    "releaseInfo": "2025",
+    "poster": "https://m.media-amazon.com/images/M/MV5BYzMwNjVjNTEtZDVhOC00NzQzLTg0MGYtMGI1Yzc0Nzg2MjNmXkEyXkFqcGc@._V1_.jpg",
+    "description": "",
+    "genres": [
+      "DSADSAD"
+    ]
+  },
+  {
+    "id": "tt3215824",
+    "type": "movie",
+    "name": "Those Who Wish Me Dead",
+    "releaseInfo": "2025",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNDBmODEyMzUtNGNkYi00MmY4LWFmMzctNTJhNDY0MGEzNGM1XkEyXkFqcGc@._V1_.jpg",
+    "description": "",
+    "genres": [
+      "DSADSAD"
+    ]
+  },
+  {
+    "id": "tt36856455",
+    "type": "movie",
+    "name": "Trainwreck",
+    "releaseInfo": "2025",
+    "poster": "https://m.media-amazon.com/images/M/MV5BZDIwNTMzMjEtNmRkNy00ODNlLWE5MjEtYzlmMzM1ODA0MTBlXkEyXkFqcGc@._V1_.jpg",
+    "description": "",
+    "genres": [
+      "DSADSAD"
+    ]
+  },
+  {
+    "id": "tt36856455",
+    "type": "movie",
+    "name": "Trainwreck",
+    "releaseInfo": "2025",
+    "poster": "https://m.media-amazon.com/images/M/MV5BZDIwNTMzMjEtNmRkNy00ODNlLWE5MjEtYzlmMzM1ODA0MTBlXkEyXkFqcGc@._V1_.jpg",
+    "description": "",
+    "genres": [
+      "DSADSAD"
+    ]
+  },
+  {
+    "id": "tt32307524",
+    "type": "movie",
+    "name": "Shark Whisperer",
+    "releaseInfo": "2025",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjBjYmQ5ZmYtZjEwNC00ZjVmLWFiNzgtYmE4YWQzNjBkODU1XkEyXkFqcGc@._V1_.jpg",
+    "description": "",
+    "genres": [
+      "DSADSAD"
+    ]
+  },
+  {
+    "id": "/features/hershey/",
     "type": "movie",
     "name": "The Super Mario Bros. Movie",
     "releaseInfo": "2025",
-    "poster": "https://m.media-amazon.com/images/M/MV5BOGZlN2EzOTYtMzUzOS00NTM3LTg0MTQtZDVjZGM4YmJlNWNhXkEyXkFqcGc@._V1_.jpg",
-    "description": "",
-    "genres": [
-      "DSADSAD"
-    ]
-  },
-  {
-    "id": "nm2409479",
-    "type": "movie",
-    "name": "Mikaela",
-    "releaseInfo": "2025",
-    "poster": "https://m.media-amazon.com/images/M/MV5BM2JlMDdmNzEtYzFhNy00OWJlLWJhMjUtODRmNTc0ZTdmNTA5XkEyXkFqcGc@._V1_.jpg",
-    "description": "",
-    "genres": [
-      "DSADSAD"
-    ]
-  },
-  {
-    "id": "tt8179024",
-    "type": "movie",
-    "name": "Body Cam",
-    "releaseInfo": "2025",
-    "poster": "https://m.media-amazon.com/images/M/MV5BYWQ1NTljYzEtNWE0ZS00Njg2LWJkNDMtNWVjOWZkYTg4OTg4XkEyXkFqcGc@._V1_.jpg",
-    "description": "",
-    "genres": [
-      "DSADSAD"
-    ]
-  },
-  {
-    "id": "tt23558084",
-    "type": "movie",
-    "name": "Bad Influence",
-    "releaseInfo": "2025",
-    "poster": "https://m.media-amazon.com/images/M/MV5BNzBkMDZiOTYtN2U0Zi00NWU4LWFkMmYtZTUwOGYwZGE2NjdhXkEyXkFqcGc@._V1_.jpg",
-    "description": "",
-    "genres": [
-      "DSADSAD"
-    ]
-  },
-  {
-    "id": "tt28309594",
-    "type": "movie",
-    "name": "Nonnas",
-    "releaseInfo": "2025",
-    "poster": "https://m.media-amazon.com/images/M/MV5BODM0M2M4YWQtMzhlNy00NjdkLWFkODktOGNlNTc4OTFiZjZmXkEyXkFqcGc@._V1_.jpg",
-    "description": "",
-    "genres": [
-      "DSADSAD"
-    ]
-  },
-  {
-    "id": "tt1192628",
-    "type": "movie",
-    "name": "Rango",
-    "releaseInfo": "2025",
-    "poster": "https://m.media-amazon.com/images/M/MV5BMTc4NjEyODE1OV5BMl5BanBnXkFtZTcwMjYzNTkxNA@@._V1_.jpg",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNzM4OGQyNGUtZjdiMS00ZDRlLThiZTMtOWY0NTA3ZDMxZTk5XkEyXkFqcGc@._V1_.jpg",
     "description": "",
     "genres": [
       "DSADSAD"
