@@ -1,0 +1,122 @@
+[
+  {
+    "id": "netflix_genre_your_next_watchexplore_more_1752404128309",
+    "type": "movie",
+    "name": "Your Next WatchExplore more",
+    "releaseInfo": "2024",
+    "poster": "https://via.placeholder.com/300x450?text=Netflix+Content",
+    "description": "Your Next WatchExplore more - Available on Netflix",
+    "genres": [
+      "Comedy",
+      "Short"
+    ]
+  },
+  {
+    "id": "netflix_genre_young_sheldon_1752404128309",
+    "type": "movie",
+    "name": "Young Sheldon",
+    "releaseInfo": "2024",
+    "poster": "https://via.placeholder.com/300x450?text=Netflix+Content",
+    "description": "Young Sheldon - Available on Netflix",
+    "genres": [
+      "Comedy",
+      "Short"
+    ]
+  },
+  {
+    "id": "netflix_genre_brooklyn_nine_nine_1752404128309",
+    "type": "movie",
+    "name": "Brooklyn Nine-Nine",
+    "releaseInfo": "2024",
+    "poster": "https://via.placeholder.com/300x450?text=Netflix+Content",
+    "description": "Brooklyn Nine-Nine - Available on Netflix",
+    "genres": [
+      "Comedy",
+      "Short"
+    ]
+  },
+  {
+    "id": "netflix_genre_emily_in_paris_1752404128309",
+    "type": "movie",
+    "name": "Emily in Paris",
+    "releaseInfo": "2024",
+    "poster": "https://via.placeholder.com/300x450?text=Netflix+Content",
+    "description": "Emily in Paris - Available on Netflix",
+    "genres": [
+      "Comedy",
+      "Short"
+    ]
+  },
+  {
+    "id": "netflix_genre_alpha_males_1752404128309",
+    "type": "movie",
+    "name": "Alpha Males",
+    "releaseInfo": "2024",
+    "poster": "https://via.placeholder.com/300x450?text=Netflix+Content",
+    "description": "Alpha Males - Available on Netflix",
+    "genres": [
+      "Comedy",
+      "Short"
+    ]
+  },
+  {
+    "id": "netflix_genre_sex_and_the_city_1752404128309",
+    "type": "movie",
+    "name": "Sex and the City",
+    "releaseInfo": "2024",
+    "poster": "https://via.placeholder.com/300x450?text=Netflix+Content",
+    "description": "Sex and the City - Available on Netflix",
+    "genres": [
+      "Comedy",
+      "Short"
+    ]
+  },
+  {
+    "id": "netflix_genre_xo__kitty_1752404128309",
+    "type": "movie",
+    "name": "XO, Kitty",
+    "releaseInfo": "2024",
+    "poster": "https://via.placeholder.com/300x450?text=Netflix+Content",
+    "description": "XO, Kitty - Available on Netflix",
+    "genres": [
+      "Comedy",
+      "Short"
+    ]
+  },
+  {
+    "id": "netflix_genre_cobra_kai_1752404128309",
+    "type": "movie",
+    "name": "Cobra Kai",
+    "releaseInfo": "2024",
+    "poster": "https://via.placeholder.com/300x450?text=Netflix+Content",
+    "description": "Cobra Kai - Available on Netflix",
+    "genres": [
+      "Comedy",
+      "Short"
+    ]
+  },
+  {
+    "id": "netflix_genre_big_mouth_1752404128309",
+    "type": "movie",
+    "name": "Big Mouth",
+    "releaseInfo": "2024",
+    "poster": "https://via.placeholder.com/300x450?text=Netflix+Content",
+    "description": "Big Mouth - Available on Netflix",
+    "genres": [
+      "Comedy",
+      "Short"
+    ]
+  },
+  {
+    "id": "netflix_genre_sakamoto_days_1752404128309",
+    "type": "movie",
+    "name": "SAKAMOTO DAYS",
+    "releaseInfo": "2024",
+    "poster": "https://via.placeholder.com/300x450?text=Netflix+Content",
+    "description": "SAKAMOTO DAYS - Available on Netflix",
+    "genres": [
+      "Comedy",
+      "Short"
+    ]
+  }
+]

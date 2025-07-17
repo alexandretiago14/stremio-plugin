@@ -1,6 +1,7 @@
 const Media = require('../models/Media');
 const connectDB = require('../config/db');
 const { getAllNetflixTop10, saveTop10ToDatabase, saveTop10ToJson } = require('../services/netflixScraperService');
+const { scrapeMultipleGenres, saveGenreToDatabase } = require('../services/netflixGenreScraperService');
 
 // Função para semear dados iniciais
 async function seedInitialData() {
@@ -59,14 +60,26 @@ async function getMedia(type, searchQuery = null, skip = 0, limit = 100) {
       // Fazer o scraping do Top 10 da Netflix
       const top10Data = await getAllNetflixTop10();
       
-      if (top10Data.length > 0) {
-        // Salvar no banco de dados
-        await saveTop10ToDatabase(top10Data);
+      // Fazer o scraping dos gêneros da Netflix
+      const genreUrls = [
+        'https://www.netflix.com/pt-en/browse/genre/81602050', // 30-Minute Laughs
+        // Add more genre URLs here if needed
+      ];
+      const genreData = await scrapeMultipleGenres(genreUrls);
+      
+      if (top10Data.length > 0 || genreData.length > 0) {
+        // Salvar dados do Top 10 no banco de dados
+        if (top10Data.length > 0) {
+          await saveTop10ToDatabase(top10Data);
+          await saveTop10ToJson(top10Data);
+        }
         
-        // Salvar em um arquivo JSON
-        await saveTop10ToJson(top10Data);
+        // Salvar dados dos gêneros no banco de dados (sem limpar dados existentes)
+        if (genreData.length > 0) {
+          await saveGenreToDatabase(genreData, false);
+        }
         
-        console.log('Processo de scraping concluído com sucesso!');
+        console.log(`Processo de scraping concluído com sucesso! Top 10: ${top10Data.length}, Gêneros: ${genreData.length}`);
       } else {
         console.log('Nenhum dado foi obtido do scraping.');
       }

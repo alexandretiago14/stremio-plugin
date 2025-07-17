@@ -9,7 +9,8 @@
     "start": "node index.js",
     "dev": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scrape-netflix": "node scripts/scrapeNetflix.js"
+    "scrape-netflix": "node scripts/scrapeNetflix.js",
+    "scrape-genre": "node scripts/scrapeNetflixGenre.js"
   },
   "keywords": [],
   "author": "",
