@@ -10,7 +10,7 @@ const builder = new addonBuilder({
   id: 'org.myexampleaddon.two',
   version: '1.0.0',
   name: 'Netflix Top 10',
-  description: 'Netflix Top 10 - Alexandre Pereira - TESTE',
+  description: 'Netflix Top 10 - Alexandre Pereira',
   
   // Resources define what your addon can do
   resources: ['catalog'],
