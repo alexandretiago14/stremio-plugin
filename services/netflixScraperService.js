@@ -36,8 +36,6 @@ async function scrapeNetflixTop10(NETFLIX_TOP10_URL = 'https://www.netflix.com/t
     // Baseado na estrutura atual da página do Netflix Top 10
     for (let index = 0; index < $('[data-uia="top10-table-row-title"]').length; index++) {
       const element = $('[data-uia="top10-table-row-title"]')[index];
-      // Extrair o rank (posição no Top 10)
-      const rank = index + 1;
       
       // Extrair o título - o título geralmente está em um elemento próximo ao rank
       const titleElement = $(element).find('button');
@@ -54,15 +52,7 @@ async function scrapeNetflixTop10(NETFLIX_TOP10_URL = 'https://www.netflix.com/t
       } catch (error) {
         console.warn(`Failed to fetch IMDB data for "${title}":`, error.message);
       }
-
-      // Extrair informações adicionais (temporada, episódios, etc)
-      const infoElement = $(element).closest('div').find('[class*="info"], [class*="season"]');
-      const additionalInfo = infoElement.text().trim();
-      
-      // Extrair a URL da imagem do poster
-      const posterElement = $(element).closest('div').find('img');
-      const poster = posterElement.attr('src') || '';
-      
+  
       // Extrair a descrição (se disponível)
       const descriptionElement = $(element).closest('div').find('[class*="description"], [class*="synopsis"]');
       const description = descriptionElement.text().trim() || '';

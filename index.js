@@ -1,19 +1,16 @@
 const { addonBuilder, serveHTTP } = require('stremio-addon-sdk');
 const connectDB = require('./config/db');
-const { seedInitialData, getMedia } = require('./services/mediaService');
+const { getMedia } = require('./services/mediaService');
 
 // Connect to MongoDB
 connectDB();
 
-// Seed initial data
-seedInitialData().catch(err => console.error('Error seeding data:', err));
-
 // Create addon builder
 const builder = new addonBuilder({
-  id: 'org.myexampleaddon',
+  id: 'org.myexampleaddon.two',
   version: '1.0.0',
   name: 'Netflix Top 10',
-  description: 'Netflix Top 10 - Alexandre Pereira',
+  description: 'Netflix Top 10 - Alexandre Pereira - TESTE',
   
   // Resources define what your addon can do
   resources: ['catalog'],

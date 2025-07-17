@@ -1,12 +1,9 @@
 const { addonBuilder, serveHTTP } = require('stremio-addon-sdk');
 const connectDB = require('./config/db');
-const { seedInitialData, getMedia } = require('./services/mediaService');
+const { getMedia } = require('./services/mediaService');
 
 // Conectar ao MongoDB
 connectDB();
-
-// Semear dados iniciais
-seedInitialData().catch(err => console.error('Erro ao semear dados:', err));
 
 // Criar um builder para o addon
 const builder = new addonBuilder({
